@@ -1,0 +1,12 @@
+import './theme';
+import './preloader';
+import './scroll';
+import './cursor';
+import './navbar';
+import './mobile-menu';
+import './hero';
+import './reveal';
+import './skills';
+import './projects';
+import './magnetic';
+import './footer';
