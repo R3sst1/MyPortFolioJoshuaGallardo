@@ -18,13 +18,8 @@
         {{-- Left Card --}}
         <div class="reveal lg:col-span-5">
 
-            <div class="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-card">
-
-                <div class="absolute inset-0 bg-grad-primary opacity-20 transition-opacity duration-500 group-hover:opacity-30"></div>
-
-                <div class="absolute inset-0 flex items-center justify-center text-[9rem] font-semibold tracking-tighter text-white/[0.06]">
-                    JG
-                </div>
+            <div class="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-card"
+                style="background-image: url('{{ asset('images/joshuagallardopic.jpg') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
                 <div class="absolute inset-x-0 bottom-0 p-6">
 
@@ -40,7 +35,7 @@
                         <div class="mt-2 flex items-center gap-3 text-sm">
                             <i class="ph ph-graduation-cap text-accent-violet"></i>
                             <span class="text-foreground">
-                                BSIT Graduate — 2026
+                                BSIT Graduate 2026
                             </span>
                         </div>
 
@@ -57,15 +52,14 @@
 
             <div class="reveal">
                 <p class="text-lg leading-relaxed text-foreground/90 md:text-xl">
-                    I'm Joshua —
+                    I'm Joshua
                     a fresh
                     <span class="font-medium text-gradient">
                         BSIT graduate
                     </span>
-                    obsessed with building software that feels considered,
-                    responsive, and quietly premium.
-                    I'm early in my career,
-                    but not early in my curiosity.
+                    passionate about designing and developing modern web applications.
+                    I enjoy creating software that's functional, intuitive, and thoughtfully crafted,
+                    while continuously learning and improving as a developer.
                 </p>
             </div>
 

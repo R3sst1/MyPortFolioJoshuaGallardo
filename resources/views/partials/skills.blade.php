@@ -78,11 +78,11 @@
                 class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent">
             </div>
 
-            <div class="flex w-max animate-marquee gap-16 text-2xl font-medium text-muted-foreground md:text-3xl">
+            <div class="flex w-max text-2xl font-medium text-muted-foreground md:text-3xl hover:[animation-play-state:paused]" style="animation: marquee 30s linear infinite;">
 
                 @for ($i = 0; $i < 2; $i++)
 
-                    <div class="flex gap-16 whitespace-nowrap">
+                    <div class="flex gap-16 whitespace-nowrap pr-16">
 
                         @foreach (config('portfolio.marquee_skills') as $skill)
 

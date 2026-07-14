@@ -33,7 +33,7 @@ return [
         [
             'year' => '2026',
 
-            'title' => 'BSIT — Graduate',
+            'title' => 'BSIT Graduate',
 
             'organization' => 'Bachelor of Science in Information Technology',
 
@@ -43,7 +43,7 @@ return [
         [
             'year' => '2025',
 
-            'title' => 'Capstone — SURE Scholarship System',
+            'title' => 'Capstone SURE Scholarship System',
 
             'organization' => 'Full-stack Development',
 
